@@ -1,0 +1,2 @@
+# safe-git
+A script which intercepts the git command and checks for the git command 'add'. It then checks all files in the 'add' command for specific sensitive keywords such as password, apikey, or credentials. It will then display the lines found to the user and prompt the user to see if they would want to continue. It is intended to prevent accidental commits of files containing sensitive credentials or information
